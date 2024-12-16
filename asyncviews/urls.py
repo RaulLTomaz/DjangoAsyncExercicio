@@ -19,7 +19,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('/', views.async_view),
+    path('', views.async_view),
     path('admin/', admin.site.urls),
     path('sync/', views.sync_view)
 ]
